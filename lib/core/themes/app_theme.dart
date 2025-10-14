@@ -29,7 +29,7 @@ class AppTheme extends ChangeNotifier {
       primaryTextTheme: TextTheme(
         bodyMedium: AppTextStyle.poppinsW600s18.copyWith(color: buttonTextColor),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: brightness == Brightness.dark ? AppColor.grey : AppColor.white,
         elevation: 6,
       ),
